@@ -1,0 +1,53 @@
+/* miniprogram/004view/004view.wxss */
+
+.section{
+  padding: 20px;
+}
+
+.flex-wrp {
+  display: flex;
+}
+
+.bc_blue {
+  background: blue;
+  width: 100px;
+  height: 100px;
+}
+
+/* 代码来源：004view.wxml */
+.bc_red {
+  background: red;
+  width: 100px;
+  height: 120px;
+}
+.bc_green {
+  background: green;
+  width: 100px;
+  height: 140px;
+}
+
+.section__title {
+  font-size: 28rpx;
+  color: #888;
+  margin: 40rpx 0 20rpx;
+}
+
+.btn{
+  display: flex;
+  align-items: middle;
+  padding: 8px 70px 8px 70px;
+  border: 1px solid #b2b2b2;
+  background-color: #f2f2f2;
+  width:auto;
+}
+/* 圆角按钮 */
+.circle-btn__hover_btn {
+  opacity: 0.8;
+  transform: scale(0.95, 0.95);
+}
+/* 方框按钮 */
+.rect-btn__hover_btn {
+  position: relative;
+  top: 3rpx;
+  left: 3rpx;
+}

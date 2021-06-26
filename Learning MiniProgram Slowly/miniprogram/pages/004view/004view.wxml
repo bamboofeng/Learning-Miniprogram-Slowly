@@ -1,0 +1,47 @@
+<!-- 代码来源：004view.wxml -->
+<view class="gap">1 示例</view>
+<view hover-class="bc_red">content</view>
+
+<view class="section">
+	<!-- 不阻止父节点出现hover状态 -->
+	<view class="gap">示例2 不阻止父节点出现hover状态</view>
+	<view hover-class="bc_red">
+		parent
+		<view hover-class="bc_green">
+			child view
+		</view>
+	</view>
+</view>
+
+<view class="section">
+	<view class="gap">示例3 阻止父节点出现hover状态</view>
+	<!-- 阻止父节点出现hover状态 -->
+	<view hover-class="bc_red">
+		parent
+		<view hover-stop-propagation hover-class="bc_green">0
+			child view
+		</view>
+	</view>
+</view>
+
+
+<!-- 8 -->
+<view class="section">
+	<view class="gap">实战 按钮</view>
+<!-- 普通按钮 -->
+<view class="section">
+	<button class="btn" type="primary">完成</button>
+</view>
+<!-- 圆形按钮 -->
+<view class="section">
+	<button hover-class="circle-btn__hover_btn">
+		<icon type="success" size="80px"></icon>
+	</button>
+</view>
+<!-- 距形按钮 -->
+<view class="section">
+	<button type="default" class="btn" plain hover-class="rect-btn__hover_btn">完成
+	</button>
+</view>
+</view>
+

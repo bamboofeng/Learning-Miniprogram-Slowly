@@ -1,0 +1,72 @@
+.example-container{
+  margin: 40rpx 0 40rpx;
+  width: 650rpx;
+  height: 100%;
+}
+
+.page-section{
+  padding: 20px;
+}
+/* 最后一个section */
+.page-section:last-child{
+  padding-bottom: 100rpx;
+}
+
+/* 5 progress已产生的进度条如何设置圆角？ */
+.wx-progress-inner-bar {
+  border-radius: 5px;
+}
+
+/* 9 */
+.wx-progress-info {
+  color: red;
+}
+
+/* 10 */
+.wx-progress-info {
+  color: red;
+  margin-left: 5px;
+}
+
+.conic-progress {
+  margin: 100rpx auto;
+  position: relative;
+  width: 500rpx;
+  height: 500rpx;
+  border-radius: 50%;
+}
+
+.conic-progress::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.progress-value {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60rpx;
+  font-weight: bolder;
+  color: green;
+}
+
+.icon-3dglass::after{
+  content: '\e8ac';
+}
+
+.canvas{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400rpx;
+  height: 400rpx;
+}
+

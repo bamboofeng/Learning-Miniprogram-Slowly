@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/007.5slide/007.5slide",
+    "pages/007movable/007movable",
+    "pages/006progress/006progress",
+    "pages/005.5dice/005.5dice",
+    "pages/005flex/005flex",
+    "pages/004view/004view",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/008rich-text/008rich-text"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "usingComponents": {
+    "iconfont": "/iconfont/iconfont"
+  }
+}

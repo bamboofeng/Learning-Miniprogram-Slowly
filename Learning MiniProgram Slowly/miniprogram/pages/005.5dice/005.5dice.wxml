@@ -1,0 +1,116 @@
+<!-- <view>单项目</view>
+
+<view class="test-face">
+  <view class="pip"></view>
+</view>
+
+<view style="justify-content:center;" class="test-face">
+  <view class="pip"></view>
+</view>
+
+<view style="justify-content:flex-end;" class="test-face">
+  <view class="pip"></view>
+</view>
+
+<view style="align-items:center;" class="test-face">
+  <view class="pip"></view>
+</view>
+
+<view style="align-items:center;justify-content:center" class="test-face">
+  <view class="pip"></view>
+</view>
+
+<view style="align-items:flex-end;justify-content:flex-end" class="test-face">
+  <view class="pip"></view>
+</view>
+
+<view>双项目</view>
+
+<view style="justify-content:space-between;" class="test-face">
+  <view class="pip"></view>
+  <view class="pip"></view>
+</view>
+
+<view style="flex-direction:column;justify-content:space-between;" class="test-face">
+  <view class="pip"></view>
+  <view class="pip"></view>
+</view>
+
+<view style="flex-direction:column;justify-content:space-between;align-items:center;" class="test-face">
+  <view class="pip"></view>
+  <view class="pip"></view>
+</view>
+
+<view style="flex-direction:column;justify-content:space-between;align-items:flex-end;.pip:nth-child(2) {align-self: center;}" class="test-face">
+  <view class="pip"></view>
+  <view class="pip"></view>
+</view>
+
+<view class=".text-two-face">
+  <view class="pip"></view>
+  <view class="pip"></view>
+</view> -->
+
+<view class="first-face">
+  <text class="pip"></text>
+</view>
+
+<view class="second-face">
+  <text class="pip"></text>
+  <text class="pip"></text>
+</view>
+
+<view class="third-face">
+  <text class="pip"></text>
+  <text class="pip"></text>
+  <text class="pip"></text>
+</view>
+
+<view class="fourth-face">
+  <view class="column">
+    <text class="pip"></text>
+    <text class="pip"></text>
+  </view>
+  <view class="column">
+    <text class="pip"></text>
+    <text class="pip"></text>
+  </view>
+</view>
+
+<view class="test-face">
+  <view class="column1">
+    <text class="pip"></text>
+    <text class="pip"></text>
+  </view>
+  <view class="column1">
+    <text class="pip"></text>
+    <text class="pip"></text>
+  </view>
+</view>
+
+<view class="fifth-face">
+  <view class="column">
+    <text class="pip"></text>
+    <text class="pip"></text>
+  </view>
+  <view class="column">
+    <text class="pip"></text>
+  </view>
+  <view class="column">
+    <text class="pip"></text>
+    <text class="pip"></text>
+  </view>
+</view>
+
+<view class="sixth-face">
+  <view class="column">
+    <text class="pip"></text>
+    <text class="pip"></text>
+    <text class="pip"></text>
+  </view>
+  <view class="column">
+    <text class="pip"></text>
+    <text class="pip"></text>
+    <text class="pip"></text>
+  </view>
+</view>

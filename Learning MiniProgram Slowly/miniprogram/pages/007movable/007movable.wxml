@@ -1,0 +1,43 @@
+<!-- direction 属性介绍 -->
+<view class="page-section">
+      <view class="page-section-title">direction 属性介绍</view>
+      <movable-area  style="height: 600rpx;width: 600rpx;background: blue;">
+            <!--黄色可以任意二维方向拖动内容-->
+            <movable-view direction="all" style="height: 100rpx; width: 100rpx; background: yellow;border-radius:30px">
+            </movable-view>
+            <!--红色只能横向拖动内容-->
+            <movable-view direction="horizontal" x="100" y="0" style="height: 100rpx; width: 100rpx; background: red;">
+            </movable-view>
+            <!--绿色只能竖向拖动内容-->
+            <movable-view direction="vertical"  x="0" y="100"  style="height: 100rpx; width: 100rpx; background: #0f0;">
+            </movable-view>
+            <!--白色不能拖动内容-->
+            <movable-view direction="none"  x="100" y="100"  style="height: 100rpx; width: 100rpx; background: #fff;border-radius:30px">
+            </movable-view>
+      </movable-area>
+</view>
+
+<!-- 三种拖拽情况 -->
+<!-- 1 movable-view = movable-area -->
+<view class="page-section">
+	<view class="page-section-title">movable-view = movable-area</view>
+	<movable-area>
+		<movable-view style="width:400rpx;height:400rpx;" direction="all">text</movable-view>
+	</movable-area>
+</view>
+
+<!-- 2 movable-view < movable-area -->
+<view class="page-section">
+	<view class="page-section-title">movable-view 《 movable-area</view>
+	<movable-area>
+		<movable-view direction="all">text</movable-view>
+	</movable-area>
+</view>
+
+<!-- 3 movable-view > movable-area -->
+<view class="page-section">
+	<view class="page-section-title">movable-view 》 movable-area</view>
+	<movable-area>
+		<movable-view style="width:500rpx;height:500rpx;" direction="all">text</movable-view>
+	</movable-area>
+</view>

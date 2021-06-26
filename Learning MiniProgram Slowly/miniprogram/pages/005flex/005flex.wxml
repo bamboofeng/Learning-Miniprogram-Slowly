@@ -1,0 +1,256 @@
+<view class="section">Flex 语法介绍</view>
+
+<view class="section">非 Flex 容器</view>
+<view>
+  <view class="red-box"></view>
+  <view class="green-box"></view>
+  <view class="blue-box"></view>
+</view>
+
+<view class="section">flex-direction 属性 默认 row 方向</view>
+<view class="box">
+  <view class="red-box"></view>
+  <view class="green-box"></view>
+  <view class="blue-box"></view>
+</view>
+
+<view class="section">row-reverse 方向</view>
+<view style="flex-direction:row-reverse;" class="box">
+  <view class="red-box"></view>
+  <view class="green-box"></view>
+  <view class="blue-box"></view>
+</view>
+
+<view class="section">column 方向</view>
+<view style="flex-direction:column;" class="box">
+  <view class="red-box"></view>
+  <view class="green-box"></view>
+  <view class="blue-box"></view>
+</view>
+
+<view class="section">column-reverse 方向</view>
+<view style="flex-direction:column-reverse;" class="box">
+  <view class="red-box"></view>
+  <view class="green-box"></view>
+  <view class="blue-box"></view>
+</view>
+
+<view class="section">flex-wrap 默认：不换行（no-wrap）</view>
+<view class="box">
+  <view class="red-box"></view>
+  <view class="green-box"></view>
+  <view class="blue-box"></view>
+  <view class="red-box"></view>
+  <view class="green-box"></view>
+  <view class="blue-box"></view>
+  <view class="red-box"></view>
+  <view class="green-box"></view>
+  <view class="blue-box"></view>
+</view>
+
+<view class="section">flex-wrap:wrap（换行）</view>
+<view style="flex-wrap:wrap;" class="box">
+  <view class="red-box"></view>
+  <view class="green-box"></view>
+  <view class="blue-box"></view>
+  <view class="red-box"></view>
+  <view class="green-box"></view>
+  <view class="blue-box"></view>
+  <view class="red-box"></view>
+  <view class="green-box"></view>
+  <view class="blue-box"></view>
+</view>
+
+<view class="section">flex-wrap:wrap-reverse（反向换行）</view>
+<view style="flex-wrap:wrap-reverse;" class="box">
+  <view class="red-box"></view>
+  <view class="green-box"></view>
+  <view class="blue-box"></view>
+  <view class="red-box"></view>
+  <view class="green-box"></view>
+  <view class="blue-box"></view>
+  <view class="red-box"></view>
+  <view class="green-box"></view>
+  <view class="blue-box"></view>
+</view>
+
+<view class="section">flex-flow direction和wrap的简写形式</view>
+<view style="flex-flow:row-reverse wrap;" class="box">
+  <view class="red-box"></view>
+  <view class="green-box"></view>
+  <view class="blue-box"></view>
+  <view class="red-box"></view>
+  <view class="green-box"></view>
+  <view class="blue-box"></view>
+  <view class="red-box"></view>
+  <view class="green-box"></view>
+  <view class="blue-box"></view>
+</view>
+
+<view class="section">justify-content属性 默认flex-start</view>
+<view class="box">
+  <view class="wide-red-box"></view>
+  <view class="green-box"></view>
+  <view class="wide-blue-box"></view>
+</view>
+
+<view class="section">flex-end</view>
+<view style="justify-content:flex-end;" class="box">
+  <view class="wide-red-box"></view>
+  <view class="green-box"></view>
+  <view class="wide-blue-box"></view>
+</view>
+
+<view class="section">center</view>
+<view style="justify-content:center;" class="box">
+  <view class="wide-red-box"></view>
+  <view class="green-box"></view>
+  <view class="wide-blue-box"></view>
+</view>
+
+<view class="section">space-between</view>
+<view style="justify-content:space-between;" class="box">
+  <view class="wide-red-box"></view>
+  <view class="green-box"></view>
+  <view class="wide-blue-box"></view>
+</view>
+
+<view class="section">space-around</view>
+<view style="justify-content:space-around;" class="box">
+  <view class="wide-red-box"></view>
+  <view class="green-box"></view>
+  <view class="wide-blue-box"></view>
+</view>
+
+<view class="section">align-items 默认flex-start</view>
+<view class="box">
+  <view class="high-red-box"></view>
+  <view class="green-box"></view>
+  <view class="high-blue-box"></view>
+</view>
+
+<view class="section">flex-end</view>
+<view style="align-items:flex-end;" class="box">
+  <view class="high-red-box"></view>
+  <view class="green-box"></view>
+  <view class="high-blue-box"></view>
+</view>
+
+<view class="section">center</view>
+<view style="align-items:center;" class="box">
+  <view class="high-red-box"></view>
+  <view class="green-box"></view>
+  <view class="high-blue-box"></view>
+</view>
+
+<view class="section">stretch</view>
+<view style="align-items:stretch;" class="box">
+  <view class="high-red-box"></view>
+  <view style="height:auto;" class="green-box"></view>
+  <view class="high-blue-box"></view>
+</view>
+
+<view class="section">baseline</view>
+<view style="align-items:baseline;" class="box">
+  <view style="padding-top:20px;" class="high-red-box">1</view>
+  <view style="padding-top:10px;" class="green-box">2</view>
+  <view class="high-blue-box">3</view>
+</view>
+
+<view class="section">align-content属性 flex-start</view>
+<view class="box" style="flex-wrap:wrap;align-content:flex-start;height:200px">
+  <view style="width:200px;" class="red-box"></view>
+  <view style="width:250px;" class="green-box"></view>
+  <view style="width:100px;" class="blue-box"></view>
+</view>
+
+<view class="section">align-content属性 flex-end</view>
+<view class="box" style="flex-wrap:wrap;align-content:flex-end;height:200px">
+  <view style="width:200px;" class="red-box"></view>
+  <view style="width:250px;" class="green-box"></view>
+  <view style="width:100px;" class="blue-box"></view>
+</view>
+
+<view class="section">align-content属性 center</view>
+<view class="box" style="flex-wrap:wrap;align-content:center;height:200px">
+  <view style="width:200px;" class="red-box"></view>
+  <view style="width:250px;" class="green-box"></view>
+  <view style="width:100px;" class="blue-box"></view>
+</view>
+
+<view class="section">align-content属性 space-between</view>
+<view class="box" style="flex-wrap:wrap;align-content:space-between;height:200px">
+  <view style="width:200px;" class="red-box"></view>
+  <view style="width:250px;" class="green-box"></view>
+  <view style="width:100px;" class="blue-box"></view>
+</view>
+
+<view class="section">align-content属性 space-around</view>
+<view class="box" style="flex-wrap:wrap;align-content:space-around;height:200px">
+  <view style="width:200px;" class="red-box"></view>
+  <view style="width:250px;" class="green-box"></view>
+  <view style="width:100px;" class="blue-box"></view>
+</view>
+
+<view class="section">align-content属性 stretch：轴线占满整个交叉轴。 但是设置了宽度，轴线不会被拉伸</view>
+<view class="box" style="flex-wrap:wrap;height:200px">
+  <view style="width:200px;height:auto;" class="red-box"></view>
+  <view style="width:250px;height:auto;" class="green-box"></view>
+  <view style="width:100px;" class="blue-box"></view>
+</view>
+
+<view class="section">order属性 默认为0</view>
+<view class="box">
+  <view style="order:2;" class="red-box"></view>
+  <view style="order:1;" class="green-box"></view>
+  <view style="order:0;" class="blue-box"></view>
+</view>
+
+<view class="section">flex-grow属性 默认为0</view>
+<view class="box">
+  <view style="flex-grow:1;" class="red-box"></view>
+  <view style="flex-grow:1;" class="green-box"></view>
+  <view style="flex-grow:1;" class="blue-box"></view>
+</view>
+<view class="box">
+  <view style="flex-grow:1;" class="red-box"></view>
+  <view style="flex-grow:2;" class="green-box"></view>
+  <view style="flex-grow:1;" class="blue-box"></view>
+</view>
+
+<view class="section">flex-shrink属性 默认为1</view>
+<view class="box">
+  <view style="flex-shrink:2" class="red-box"></view>
+  <view style="flex-shrink:0" class="green-box"></view>
+  <view class="blue-box"></view>
+  <view class="red-box"></view>
+  <view class="green-box"></view>
+  <view class="blue-box"></view>
+  <view class="red-box"></view>
+  <view class="green-box"></view>
+  <view class="blue-box"></view>
+  <view class="red-box"></view>
+  <view class="green-box"></view>
+  <view class="blue-box"></view>
+</view>
+
+<view class="section">flex-basis属性 默认为auto</view>
+<view class="box">
+  <view  style="flex-basis:100px;" class="red-box"></view>
+  <view class="green-box"></view>
+  <view class="blue-box"></view>
+</view>
+
+<view class="section">flex属性 flex属性是flex-grow, flex-shrink 和 flex-basis的简写 默认为0 1 auto</view>
+<view class="box" style="flex-basis:100px">
+  <view style="flex:auto;" class="red-box"></view>
+  <view style="flex:none;" class="green-box"></view>
+  <view class="blue-box"></view>
+</view>
+
+<view class="section">flex-end</view>
+<view class="box">
+  <view class="high-red-box"></view>
+  <view style="align-self:flex-end;" class="green-box"></view>
+  <view class="high-blue-box"></view>
+</view>

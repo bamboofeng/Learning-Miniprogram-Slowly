@@ -48,9 +48,27 @@
 
 定义滑动方向`direction`为全部方向`all`。接下来你就可以看到灰色可移动区域包裹着内部绿色容器，组件只能在灰色区域滑动。（**避免文章啰嗦，下面提到可移动区域和可移动容器，会简写为区域和容器**）![movable-model](https://gitee.com/findingjack/write-picture/raw/master/movable-model.gif)
 
-在这里`<movable-area>`和`<movable-view>`的高宽我都没有定义，文档上写着：必须设置width和height属性，不设置默认为10px。
+在这里`<movable-area>`和`<movable-view>`的高宽都被我定义为 100rpx 和 400rpx。如果不进行设置，默认都为10px。
 
-实测下来`<movable-view>`默认值是100rpx，`<movable-area>`默认值是400rpx。
+```css
+/* 代码来源：007movable.wxss */
+movable-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100rpx;
+  width: 100rpx;
+  background: #1AAD19;
+  color: #fff;
+}
+
+movable-area {
+  height: 400rpx;
+  width: 400rpx;
+  background-color: #ccc;
+  overflow: hidden;
+}
+```
 
 # 属性介绍
 

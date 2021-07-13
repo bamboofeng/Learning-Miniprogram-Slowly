@@ -11,3 +11,17 @@
     </movable-view>
   </movable-area>
 </view>
+
+<!-- 左侧删除 实现左侧删除效果-->
+<view class="page-section-title">左侧删除</view>
+<view class="list_item">
+  <movable-area style="width:750rpx;height:100rpx;">
+    <movable-view style="width:1050rpx;height:100rpx" direction="horizontal" class="max">
+      <view class="left">这是插入到组内容</view>
+      <view class="right">
+        <view class="read">已读</view>
+        <view class="delete">删除</view>
+      </view>
+    </movable-view>
+  </movable-area>
+</view>

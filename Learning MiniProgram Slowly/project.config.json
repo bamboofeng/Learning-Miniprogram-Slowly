@@ -21,7 +21,7 @@
     "compileHotReLoad": false,
     "useMultiFrameRuntime": true,
     "useApiHook": true,
-    "useApiHostProcess": true,
+    "useApiHostProcess": false,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -37,7 +37,7 @@
     "minifyWXSS": true
   },
   "appid": "wx94246e3185c8eeb5",
-  "projectname": "Learning%20MiniProgram%20Slowly",
+  "projectname": "git-MiniProgram",
   "libVersion": "2.16.0",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
